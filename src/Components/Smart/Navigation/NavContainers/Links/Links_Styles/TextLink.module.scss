@@ -1,0 +1,11 @@
+.TextLink {
+  display: inline-block;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+  &:active,
+  &:hover {
+    color: var(--color-accent);
+  }
+}

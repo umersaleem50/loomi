@@ -5,7 +5,7 @@ const Routes = (props) => {
   return (
     <Router>
       <Route path="/" exact component={App} />
-      <Route render={() => <h1>No found 404!</h1>} />
+      {/* <Route render={() => <h1>No found 404!</h1>} /> */}
     </Router>
   );
 };

@@ -1,4 +1,4 @@
-import "./Assets/Styles/App.css";
+import "./Assets/Global_Styles/App.css";
 import Navigation from "./Components/Smart/Navigation/Navigation";
 
 function App() {

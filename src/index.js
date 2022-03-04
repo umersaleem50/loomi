@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Assets/Styles/index.css";
+import "./Assets/Global_Styles/index.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./Routes/Routes";
 import App from "./App.js";
 import reportWebVitals from "./Test/reportWebVitals";
+import Navigation from "./Components/Smart/Navigation/Navigation";
 
 const app = <Routes />;
 

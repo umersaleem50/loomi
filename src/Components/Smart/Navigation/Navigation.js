@@ -2,12 +2,15 @@ import React from "react";
 
 import classes from "./Navigation.module.scss";
 import Logo from "../../UI Components/Logo/Logo";
+import Navbar from "./Navbar/Navbar";
 
 const Navigation = (props) => {
   return (
-    <nav className={classes.Navigation}>
+    <div className={classes.Navigation}>
       <Logo />
-    </nav>
+      <Navbar />
+      <div>dummy text</div>
+    </div>
   );
 };
 

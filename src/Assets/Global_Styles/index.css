@@ -11,11 +11,16 @@
 :root {
   --color-primary: #222326;
   --color-secondary: #7e7b77;
-  --color-light: #d4cfcb;
+  --color-light: #f0f0f0;
   --color-stroke: #d4cfcb;
   --color-accent: #e09c7f;
   --color-brown: #887568;
   --color-urgent: #eb5757;
+
+  --fs-heading: 2.4rem;
+  --fs-title: 6rem;
+  --fs-sub-heading: 1.8rem;
+  --fs-body: 1.4rem;
 }
 
 html {
@@ -28,4 +33,5 @@ html {
 body {
   font-family: inherit;
   font-size: inherit;
+  position: relative;
 }
