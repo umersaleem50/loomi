@@ -5,7 +5,11 @@ const SubHeading = (props) => {
   return (
     <h3
       className={classes?.SubHeading}
-      style={{ ...props.style, fontWeight: props.fontWeight }}
+      style={{
+        ...props.style,
+        fontWeight: props.fontWeight,
+        textTransform: props.textTransform,
+      }}
     >
       {props.text || props.children}
     </h3>

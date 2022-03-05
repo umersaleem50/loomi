@@ -2,6 +2,7 @@
   text-align: center;
   max-width: 114rem;
   margin: 0 auto;
+  position: relative;
 }
 
 .App-logo {

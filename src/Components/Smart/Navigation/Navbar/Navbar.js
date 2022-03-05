@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Logo from "./../../../UI Components/Logo/Logo";
 import NavItem from "./NavItem/NavItem";
 import classes from "./Navbar.module.scss";
+import Sale_Container from "../NavContainers/Containers/Sale_Container";
 import NavContainer from "../NavContainers/NavContainer";
 class Navbar extends Component {
   state = {
@@ -12,7 +13,7 @@ class Navbar extends Component {
     navItems: [
       {
         itemName: "Sale",
-        itemContainerComponent: Logo,
+        itemContainerComponent: Sale_Container,
       },
       {
         itemName: "New in",

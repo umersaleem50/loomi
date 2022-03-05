@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Container.module.scss";
-function Container() {
+function Container(props) {
   return (
     <figure className={classes.Container}>
       <div className={classes.offer}>

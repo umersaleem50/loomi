@@ -1,0 +1,10 @@
+.Overlay {
+  min-width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  //   z-index: 10;
+  background-color: rgba(#000, 0.5);
+}
